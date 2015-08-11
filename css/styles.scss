@@ -1,0 +1,18 @@
+@import "fonts";
+
+body {
+	font-family: 'Proxima Nova', Arial, Helvetica, sans-serif;
+
+	header {
+		text-align: center;
+		padding: 2em 0;
+
+		img {
+			max-width: 50%;
+		}
+	}
+
+	section.content {
+		text-align: center;
+	}
+}
