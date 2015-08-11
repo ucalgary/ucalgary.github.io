@@ -1,3 +1,4 @@
+@import 'bootstrap-sass-3.3.5/stylesheets/bootstrap-custom';
 @import "fonts";
 
 body {
@@ -14,5 +15,44 @@ body {
 
 	section.content {
 		text-align: center;
+
+		ul { 
+			padding: 0;
+			@extend .col-lg-8;
+			@extend .col-lg-offset-2;
+			@extend .col-sm-10;
+			@extend .col-sm-offset-1;
+
+			li {
+				@extend .col-lg-4;
+				@extend .col-sm-6;
+				@extend .col-xs-12;
+				display: block;
+
+				div {
+					border-radius: 1em;
+					padding: 1em;
+					margin: 0.25em -11px;
+					background-color: #ddd;
+				}
+			}
+
+			&.featured li {
+				@extend .col-sm-4;
+
+				div {
+					color: #fff;
+					background-color: #f00;
+
+					a {
+						color: #fff;
+
+						&:hover {
+							color: #fca311;
+						}
+					}
+				}
+			}
+		}
 	}
 }
