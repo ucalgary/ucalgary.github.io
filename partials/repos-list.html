@@ -1,0 +1,17 @@
+<h1>Welcome to our GitHub</h1>
+<ul class="featured">
+    <li ng-repeat="repo in featuredRepos">
+        <div>
+            <h2><a href="{{repo.html_url}}">{{repo.name}}</a></h2>
+            <span>{{repo.description}}</span>
+        </div>
+    </li>
+</ul>
+<ul>
+    <li ng-repeat="repo in repos | filter:query">
+        <div>
+            <h2><a href="{{repo.html_url}}">{{repo.name}}</a></h2>
+            <span>{{repo.description}}</span>
+        </div>
+    </li>
+</ul>

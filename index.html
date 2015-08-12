@@ -11,6 +11,8 @@
         <link rel="stylesheet" href="css/styles.css">
 
         <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular.min.js"></script>
+        <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular-route.min.js"></script>
+        <script type="text/javascript" src="js/app.js"></script>
         <script type="text/javascript" src="js/controllers.js"></script>
     </head>
     <body ng-controller="ReposController">
@@ -19,24 +21,6 @@
             <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
             <img src="img/crest.png" alt="University of Calgary" />
         </header>
-        <section class="content">
-            <h1>Welcome to our GitHub</h1>
-            <ul class="featured">
-                <li ng-repeat="repo in featuredRepos">
-                    <div>
-                        <h2><a href="{{repo.html_url}}">{{repo.name}}</a></h2>
-                        <span>{{repo.description}}</span>
-                    </div>
-                </li>
-            </ul>
-            <ul>
-                <li ng-repeat="repo in repos | filter:query">
-                    <div>
-                        <h2><a href="{{repo.html_url}}">{{repo.name}}</a></h2>
-                        <span>{{repo.description}}</span>
-                    </div>
-                </li>
-            </ul>
-        </section>
+        <section class="content" ng-view></section>
     </body>
 </html>
