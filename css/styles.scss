@@ -64,7 +64,15 @@ body {
 					padding: 1em;
 					margin: 0.25em -11px;
 					background-color: #ddd;
-					min-height: 132px;
+					height: 160px;
+
+					@media(max-width: $screen-sm-min){
+						height: auto;
+					}
+
+					h2 {
+						margin: 0.25em 0;
+					}
 				}
 			}
 
