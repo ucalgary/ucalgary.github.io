@@ -1189,13 +1189,13 @@ hr {
   .row:after {
     clear: both; }
 
-.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, body section.content ul.featured li, .col-md-4, .col-lg-4, body section.content ul li, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, body section.content ul li, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, body section.content ul, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, body section.content ul, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, body section.content ul li, .col-sm-12, .col-md-12, .col-lg-12 {
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, body header input, body section.content ul.featured li, .col-md-4, .col-lg-4, body section.content ul li, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, body section.content ul li, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, body header, body section.content ul, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, body header, body section.content ul, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, body header input, body section.content ul li, .col-sm-12, .col-md-12, .col-lg-12 {
   position: relative;
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px; }
 
-.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12, body section.content ul li {
+.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12, body header input, body section.content ul li {
   float: left; }
 
 .col-xs-1 {
@@ -1231,7 +1231,7 @@ hr {
 .col-xs-11 {
   width: 91.6666666667%; }
 
-.col-xs-12, body section.content ul li {
+.col-xs-12, body header input, body section.content ul li {
   width: 100%; }
 
 .col-xs-pull-0 {
@@ -1352,7 +1352,7 @@ hr {
   margin-left: 100%; }
 
 @media (min-width: 768px) {
-  .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, body section.content ul.featured li, .col-sm-5, .col-sm-6, body section.content ul li, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, body section.content ul, .col-sm-11, .col-sm-12 {
+  .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, body header input, body section.content ul.featured li, .col-sm-5, .col-sm-6, body section.content ul li, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, body header, body section.content ul, .col-sm-11, .col-sm-12 {
     float: left; }
 
   .col-sm-1 {
@@ -1364,7 +1364,7 @@ hr {
   .col-sm-3 {
     width: 25%; }
 
-  .col-sm-4, body section.content ul.featured li {
+  .col-sm-4, body header input, body section.content ul.featured li {
     width: 33.3333333333%; }
 
   .col-sm-5 {
@@ -1382,7 +1382,7 @@ hr {
   .col-sm-9 {
     width: 75%; }
 
-  .col-sm-10, body section.content ul {
+  .col-sm-10, body header, body section.content ul {
     width: 83.3333333333%; }
 
   .col-sm-11 {
@@ -1472,7 +1472,7 @@ hr {
   .col-sm-offset-0 {
     margin-left: 0%; }
 
-  .col-sm-offset-1, body section.content ul {
+  .col-sm-offset-1, body header, body section.content ul {
     margin-left: 8.3333333333%; }
 
   .col-sm-offset-2 {
@@ -1493,7 +1493,7 @@ hr {
   .col-sm-offset-7 {
     margin-left: 58.3333333333%; }
 
-  .col-sm-offset-8 {
+  .col-sm-offset-8, body header input {
     margin-left: 66.6666666667%; }
 
   .col-sm-offset-9 {
@@ -1664,7 +1664,7 @@ hr {
   .col-md-offset-12 {
     margin-left: 100%; } }
 @media (min-width: 1200px) {
-  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, body section.content ul li, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, body section.content ul, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, body section.content ul li, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, body header, body section.content ul, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
     float: left; }
 
   .col-lg-1 {
@@ -1688,7 +1688,7 @@ hr {
   .col-lg-7 {
     width: 58.3333333333%; }
 
-  .col-lg-8, body section.content ul {
+  .col-lg-8, body header, body section.content ul {
     width: 66.6666666667%; }
 
   .col-lg-9 {
@@ -1787,7 +1787,7 @@ hr {
   .col-lg-offset-1 {
     margin-left: 8.3333333333%; }
 
-  .col-lg-offset-2, body section.content ul {
+  .col-lg-offset-2, body header, body section.content ul {
     margin-left: 16.6666666667%; }
 
   .col-lg-offset-3 {
@@ -2082,9 +2082,24 @@ body {
   body header {
     text-align: center;
     padding: 2em 0; }
-    body header img {
-      max-width: 50%; }
+    @media (max-width: 768px) {
+      body header {
+        padding: 1em; } }
+    body header input {
+      padding: 0.25em; }
+    body header span.glyphicon {
+      position: absolute;
+      right: 0.5em;
+      top: 2.5em; }
+      @media (max-width: 768px) {
+        body header span.glyphicon {
+          right: 1.5em;
+          top: 1.5em; } }
+    @media (max-width: 768px) {
+      body header img {
+        margin-top: 2em; } }
   body section.content {
+    clear: both;
     text-align: center; }
     body section.content ul {
       padding: 0; }
@@ -2094,7 +2109,8 @@ body {
           border-radius: 1em;
           padding: 1em;
           margin: 0.25em -11px;
-          background-color: #ddd; }
+          background-color: #ddd;
+          min-height: 132px; }
       body section.content ul.featured li div {
         color: #fff;
         background-color: #f00; }
